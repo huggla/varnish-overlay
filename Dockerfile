@@ -1,4 +1,4 @@
-FROM huggla/ubuntu-debootstrap-varnish
+FROM huggla/varnish-alpine:20171212
 
 RUN mkdir /varnishcache
 

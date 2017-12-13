@@ -1,7 +1,7 @@
 FROM huggla/varnish-alpine
 
 ENV JAIL="unix,user=varnish" \
-    STORAGE="persistent,/varnishcache,100M"
+    STORAGE="deprecated_persistent,/varnishcache,100M"
 
 COPY ./bin/pre-entry.sh /usr/local/bin/pre-entry.sh
 

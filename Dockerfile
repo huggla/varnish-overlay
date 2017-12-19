@@ -1,4 +1,4 @@
-FROM huggla/varnish-alpine
+FROM huggla/varnish-alpine:20171219
 
 ENV JAIL="unix,user=varnish" \
     STORAGE="deprecated_persistent,/varnishcache/cache,100M"

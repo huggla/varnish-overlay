@@ -5,4 +5,4 @@ This image can be used to scale up varnish, sharing a pre-seeded cache.
 2. Mount /mnt from the host on /overlay/hostdir.
 
 ### Capabilities
-Needs SYS_ADMIN, other capabilities can be dropped.
+Needs SYS_ADMIN, CHOWN, DAC_OVERRIDE, FOWNER, SETGID, SETUID. Other capabilities can be dropped.
